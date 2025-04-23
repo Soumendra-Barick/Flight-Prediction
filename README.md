@@ -39,17 +39,9 @@ This project uses machine learning techniques to predict flight ticket prices ba
 - Extracted day/month from journey date  
 - Parsed hours and minutes from `Dep_Time`, `Arrival_Time`, and `Duration`  
 - Encoded categorical variables using One-Hot Encoding  
-- Removed outliers and missing values  
+- Removed outliers and missing values
 
 ---
-
-## 🚀 Model Training
-
-```python
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_squared_error
-
 
 ## 📁 Project Structure
 
@@ -62,3 +54,12 @@ flight-price-prediction/
 ├── Flight_Price_Prediction.ipynb
 ├── README.md
 └── LICENSE
+
+---
+
+## 🚀 Model Training
+
+```python
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
