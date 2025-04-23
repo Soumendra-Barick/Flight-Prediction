@@ -49,3 +49,16 @@ This project uses machine learning techniques to predict flight ticket prices ba
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
+
+
+## 📁 Project Structure
+
+flight-price-prediction/
+│
+├── data/
+│   ├── Train_data.csv
+│   └── Test_data.csv
+│
+├── Flight_Price_Prediction.ipynb
+├── README.md
+└── LICENSE
