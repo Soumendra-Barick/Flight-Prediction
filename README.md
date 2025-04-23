@@ -55,8 +55,6 @@ flight-price-prediction/
 ├── README.md
 └── LICENSE
 
----
-
 ## 🚀 Model Training
 
 ```python
